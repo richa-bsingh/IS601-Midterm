@@ -1,4 +1,4 @@
-import pytest
+"""Test the app"""
 from app import App
 
 def test_app_start_exit_command(capfd, monkeypatch):
@@ -8,12 +8,13 @@ def test_app_start_exit_command(capfd, monkeypatch):
     app = App()
     app.start()  # Start the application without expecting SystemExit
 
-    # Since there's no SystemExit, we can directly assert on the output if needed
-    captured = capfd.readouterr()
-    # Add assertions here if there's specific output expected upon exiting
+    # # Since there's no SystemExit, we can directly assert on the output if needed
+    # captured = capfd.readouterr()
+    # # Add assertions here if there's specific output expected upon exiting
 
 
 def test_app_get_environment_variable(mocker):
+    """Test the dot env variables"""
     # Patch the os.environ to simulate different environments
     mocker.patch.dict('os.environ', {'ENVIRONMENT': 'DEVELOPMENT'})
     app_dev = App()

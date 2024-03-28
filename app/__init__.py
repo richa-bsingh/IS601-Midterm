@@ -1,23 +1,24 @@
 import os
 import pkgutil
 import importlib
-from app.commands import CommandHandler, Command
+from app.commands import CommandHandler, Command, CommandHistoryManager
 from app.plugins.menu import MenuCommand
 import logging
 from dotenv import load_dotenv
 
 class App:
     def __init__(self):  # Constructor
-        load_dotenv()
-        self.settings = self.load_environment_variables()
-        self.settings.setdefault('ENVIRONMENT', 'PRODUCTION')   
         os.makedirs('logs', exist_ok=True)  # Ensure the logs directory exists
         self.configure_logging()
+        load_dotenv()
+        self.settings = self.load_environment_variables()
+        self.settings.setdefault('ENVIRONMENT', 'PRODUCTION')
         self.command_handler = CommandHandler()
     
     def load_environment_variables(self):
         settings = {key: value for key, value in os.environ.items()}
         logging.info("Environment variables loaded.")
+        environment = settings.get('ENVIRONMENT', None)
         return settings
 
     def get_environment_variable(self, env_var: str = 'ENVIRONMENT'):
@@ -63,6 +64,7 @@ class App:
         self.load_plugins()
         logging.info("Application starting...")  # Log application start
         self.print_main_menu()
+        command_history = CommandHistoryManager()  # Get the singleton instance
         while True:
             user_input = input(">>> ").strip()
             if user_input.lower() == 'exit':
@@ -77,6 +79,7 @@ class App:
                 command_name = self.command_handler.get_command_by_index(index)
                 if command_name:
                     self.command_handler.execute_command(command_name)
+                    command_history.add_command(command_name)  # Add to command history
                     self.print_main_menu()  # Print the main menu again after command execution for user
                 else:
                     logging.warning("Invalid selection. Please enter a valid number.")  # Logging warning
