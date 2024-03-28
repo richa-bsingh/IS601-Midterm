@@ -1,0 +1,140 @@
+2024-03-27 22:30:15,587 - INFO - Logging configured.
+2024-03-27 22:30:15,587 - INFO - Environment variables loaded.
+2024-03-27 22:30:15,587 - INFO - CommandHandler initialized.
+2024-03-27 22:30:15,588 - INFO - Found plugin: calculator
+2024-03-27 22:30:15,589 - INFO - Command 'calculator' registered.
+2024-03-27 22:30:15,589 - INFO - Registered command: calculator
+2024-03-27 22:30:15,589 - INFO - Found plugin: exit
+2024-03-27 22:30:15,590 - INFO - Command 'exit' registered.
+2024-03-27 22:30:15,590 - INFO - Registered command: exit
+2024-03-27 22:30:15,590 - INFO - Found plugin: greet
+2024-03-27 22:30:15,590 - INFO - Command 'greet' registered.
+2024-03-27 22:30:15,590 - INFO - Registered command: greet
+2024-03-27 22:30:15,591 - INFO - Found plugin: history
+2024-03-27 22:30:15,595 - INFO - Command 'history' registered.
+2024-03-27 22:30:15,595 - INFO - Registered command: history
+2024-03-27 22:30:15,595 - INFO - Found plugin: menu
+2024-03-27 22:30:15,595 - INFO - Command 'menu' registered.
+2024-03-27 22:30:15,595 - INFO - Application starting...
+2024-03-27 22:30:15,595 - INFO - Listing available commands.
+2024-03-27 22:30:19,466 - INFO - Executing command: history
+2024-03-27 22:30:21,629 - INFO - Executing history operation: Load History
+2024-03-27 22:30:25,352 - INFO - User selected to go back from HistoryCommand.
+2024-03-27 22:30:29,168 - INFO - Logging configured.
+2024-03-27 22:30:29,168 - INFO - Environment variables loaded.
+2024-03-27 22:30:29,168 - INFO - CommandHandler initialized.
+2024-03-27 22:30:29,168 - INFO - Found plugin: calculator
+2024-03-27 22:30:29,169 - INFO - Command 'calculator' registered.
+2024-03-27 22:30:29,169 - INFO - Registered command: calculator
+2024-03-27 22:30:29,169 - INFO - Found plugin: exit
+2024-03-27 22:30:29,170 - INFO - Command 'exit' registered.
+2024-03-27 22:30:29,170 - INFO - Registered command: exit
+2024-03-27 22:30:29,170 - INFO - Found plugin: greet
+2024-03-27 22:30:29,170 - INFO - Command 'greet' registered.
+2024-03-27 22:30:29,170 - INFO - Registered command: greet
+2024-03-27 22:30:29,170 - INFO - Found plugin: history
+2024-03-27 22:30:29,172 - INFO - Command 'history' registered.
+2024-03-27 22:30:29,172 - INFO - Registered command: history
+2024-03-27 22:30:29,172 - INFO - Found plugin: menu
+2024-03-27 22:30:29,172 - INFO - Command 'menu' registered.
+2024-03-27 22:30:29,172 - INFO - Application starting...
+2024-03-27 22:30:29,172 - INFO - Listing available commands.
+2024-03-27 22:30:31,901 - INFO - Executing command: calculator
+2024-03-27 22:30:33,560 - INFO - Executing calculator operation: Add
+2024-03-27 22:30:33,561 - INFO - Executing Add command.
+2024-03-27 22:30:36,453 - INFO - Addition result: 3.0
+2024-03-27 22:30:37,943 - INFO - Go back from CalculatorCommand.
+2024-03-27 22:30:41,848 - INFO - Logging configured.
+2024-03-27 22:30:41,848 - INFO - Environment variables loaded.
+2024-03-27 22:30:41,848 - INFO - CommandHandler initialized.
+2024-03-27 22:30:41,848 - INFO - Found plugin: calculator
+2024-03-27 22:30:41,850 - INFO - Command 'calculator' registered.
+2024-03-27 22:30:41,850 - INFO - Registered command: calculator
+2024-03-27 22:30:41,850 - INFO - Found plugin: exit
+2024-03-27 22:30:41,850 - INFO - Command 'exit' registered.
+2024-03-27 22:30:41,850 - INFO - Registered command: exit
+2024-03-27 22:30:41,850 - INFO - Found plugin: greet
+2024-03-27 22:30:41,850 - INFO - Command 'greet' registered.
+2024-03-27 22:30:41,850 - INFO - Registered command: greet
+2024-03-27 22:30:41,850 - INFO - Found plugin: history
+2024-03-27 22:30:41,852 - INFO - Command 'history' registered.
+2024-03-27 22:30:41,852 - INFO - Registered command: history
+2024-03-27 22:30:41,852 - INFO - Found plugin: menu
+2024-03-27 22:30:41,852 - INFO - Command 'menu' registered.
+2024-03-27 22:30:41,852 - INFO - Application starting...
+2024-03-27 22:30:41,852 - INFO - Listing available commands.
+2024-03-27 22:30:47,029 - INFO - Executing command: greet
+2024-03-27 22:30:47,030 - INFO - Executing GreetCommand.
+2024-03-27 22:30:47,030 - INFO - GreetCommand executed successfully.
+2024-03-27 22:32:58,419 - INFO - Logging configured.
+2024-03-27 22:32:58,419 - INFO - Environment variables loaded.
+2024-03-27 22:32:58,419 - INFO - CommandHandler initialized.
+2024-03-27 22:32:58,419 - INFO - Found plugin: calculator
+2024-03-27 22:32:58,421 - INFO - Command 'calculator' registered.
+2024-03-27 22:32:58,421 - INFO - Registered command: calculator
+2024-03-27 22:32:58,421 - INFO - Found plugin: exit
+2024-03-27 22:32:58,421 - INFO - Command 'exit' registered.
+2024-03-27 22:32:58,421 - INFO - Registered command: exit
+2024-03-27 22:32:58,421 - INFO - Found plugin: greet
+2024-03-27 22:32:58,421 - INFO - Command 'greet' registered.
+2024-03-27 22:32:58,421 - INFO - Registered command: greet
+2024-03-27 22:32:58,422 - INFO - Found plugin: history
+2024-03-27 22:32:58,423 - ERROR - Error loading plugin history: No columns to parse from file
+2024-03-27 22:32:58,423 - INFO - Found plugin: menu
+2024-03-27 22:32:58,423 - INFO - Command 'menu' registered.
+2024-03-27 22:32:58,423 - INFO - Application starting...
+2024-03-27 22:32:58,423 - INFO - Listing available commands.
+2024-03-27 22:33:25,303 - INFO - Logging configured.
+2024-03-27 22:33:25,303 - INFO - Environment variables loaded.
+2024-03-27 22:33:25,303 - INFO - CommandHandler initialized.
+2024-03-27 22:33:25,303 - INFO - Found plugin: calculator
+2024-03-27 22:33:25,305 - INFO - Command 'calculator' registered.
+2024-03-27 22:33:25,305 - INFO - Registered command: calculator
+2024-03-27 22:33:25,305 - INFO - Found plugin: exit
+2024-03-27 22:33:25,305 - INFO - Command 'exit' registered.
+2024-03-27 22:33:25,305 - INFO - Registered command: exit
+2024-03-27 22:33:25,305 - INFO - Found plugin: greet
+2024-03-27 22:33:25,305 - INFO - Command 'greet' registered.
+2024-03-27 22:33:25,305 - INFO - Registered command: greet
+2024-03-27 22:33:25,305 - INFO - Found plugin: history
+2024-03-27 22:33:25,311 - INFO - Command 'history' registered.
+2024-03-27 22:33:25,311 - INFO - Registered command: history
+2024-03-27 22:33:25,311 - INFO - Found plugin: menu
+2024-03-27 22:33:25,311 - INFO - Command 'menu' registered.
+2024-03-27 22:33:25,311 - INFO - Application starting...
+2024-03-27 22:33:25,311 - INFO - Listing available commands.
+2024-03-27 22:33:30,940 - INFO - Executing command: exit
+2024-03-27 22:33:30,942 - INFO - Executing ExitCommand - Application exiting...
+2024-03-27 22:33:33,316 - INFO - Logging configured.
+2024-03-27 22:33:33,316 - INFO - Environment variables loaded.
+2024-03-27 22:33:33,316 - INFO - CommandHandler initialized.
+2024-03-27 22:33:33,316 - INFO - Found plugin: calculator
+2024-03-27 22:33:33,317 - INFO - Command 'calculator' registered.
+2024-03-27 22:33:33,317 - INFO - Registered command: calculator
+2024-03-27 22:33:33,317 - INFO - Found plugin: exit
+2024-03-27 22:33:33,318 - INFO - Command 'exit' registered.
+2024-03-27 22:33:33,318 - INFO - Registered command: exit
+2024-03-27 22:33:33,318 - INFO - Found plugin: greet
+2024-03-27 22:33:33,318 - INFO - Command 'greet' registered.
+2024-03-27 22:33:33,318 - INFO - Registered command: greet
+2024-03-27 22:33:33,318 - INFO - Found plugin: history
+2024-03-27 22:33:33,320 - INFO - Command 'history' registered.
+2024-03-27 22:33:33,320 - INFO - Registered command: history
+2024-03-27 22:33:33,320 - INFO - Found plugin: menu
+2024-03-27 22:33:33,320 - INFO - Command 'menu' registered.
+2024-03-27 22:33:33,320 - INFO - Application starting...
+2024-03-27 22:33:33,320 - INFO - Listing available commands.
+2024-03-27 22:33:36,548 - INFO - Executing command: history
+2024-03-27 22:33:40,183 - INFO - Executing history operation: Load History
+2024-03-27 22:33:53,308 - INFO - User selected to go back from HistoryCommand.
+2024-03-27 22:33:53,327 - INFO - Listing available commands.
+2024-03-27 22:34:01,345 - INFO - Executing command: greet
+2024-03-27 22:34:01,346 - INFO - Executing GreetCommand.
+2024-03-27 22:34:01,346 - INFO - GreetCommand executed successfully.
+2024-03-27 22:34:01,352 - INFO - Listing available commands.
+2024-03-27 22:34:03,491 - INFO - Executing command: greet
+2024-03-27 22:34:03,491 - INFO - Executing GreetCommand.
+2024-03-27 22:34:03,491 - INFO - GreetCommand executed successfully.
+2024-03-27 22:34:03,497 - INFO - Listing available commands.
+2024-03-27 22:34:12,510 - INFO - Executing command: exit
+2024-03-27 22:34:12,513 - INFO - Executing ExitCommand - Application exiting...

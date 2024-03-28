@@ -13,7 +13,7 @@ from app.plugins.menu import MenuCommand
 
 def test_app_greet_command(capfd, monkeypatch, caplog):
     """Test that the REPL correctly handles the 'greet' command and its logging."""
-    inputs = iter(['5', 'exit'])
+    inputs = iter(['3', 'exit'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
 
     with caplog.at_level(logging.INFO):
@@ -30,7 +30,7 @@ def test_app_greet_command(capfd, monkeypatch, caplog):
 
 def test_app_menu_command(capfd, monkeypatch, caplog):
     """Test that the REPL correctly handles the 'menu' command and its logging."""
-    inputs = iter(['6','0','exit'])
+    inputs = iter(['5','0','exit'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
 
     with caplog.at_level(logging.INFO):
@@ -203,23 +203,6 @@ def test_app_subtract_command(capfd, monkeypatch, caplog):
         assert "Executing Subtract command." in caplog.text
         assert "Subtraction result: 7.0" in caplog.text
 
-def test_app_goodbye_command(capfd, monkeypatch, caplog):
-    """Test that the REPL correctly handles the 'goodbye' command and its logging."""
-    # Assuming '5' selects the GoodbyeCommand in your command list, followed by an 'exit' command
-    inputs = iter(['4', '0', 'exit'])  # Adjust '5' if the position of GoodbyeCommand differs
-    monkeypatch.setattr('builtins.input', lambda _: next(inputs))
-
-    with caplog.at_level(logging.INFO):
-        app = App()
-        app.start()
-
-        # Capture and assert the expected output for goodbye
-        captured = capfd.readouterr()
-        assert "Goodbye" in captured.out
-
-        # Now, check the log messages for the execution of the GoodbyeCommand
-        assert "Executing GoodbyeCommand." in caplog.text
-        assert "GoodbyeCommand executed successfully." in caplog.text
 
 @pytest.fixture
 def mock_command_history_manager():
