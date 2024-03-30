@@ -46,7 +46,6 @@ Incorporated key design patterns to address software design challenges. Below ar
 
 Please view [Design Patterns](md-docs/designpattern.md) for additional details on how each design pattern is implemented and what is the challenge that it covers.
 
-
 ## Development, Testing, and Documentation Completions
 ### Testing and Code Quality
 - Achieve a 90% test coverage with Pytest.
@@ -59,6 +58,10 @@ Please view [Design Patterns](md-docs/designpattern.md) for additional details o
 ### Comprehensive Documentation
 The entire development process is documented in various md files for detailed explanation and references.
 
+## Demo Video:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=yUtpDwKM-vg
+" target="_blank"><img src="https://img.youtube.com/vi/yUtpDwKM-vg/3.jpg" 
+alt="Demo video" width="240" height="180" border="3"/></a>
 
 # Features added in the application:
 #### Functionality
